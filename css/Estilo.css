@@ -1,0 +1,70 @@
+body
+{
+    background-image: url(../imagenes/jj.jpg);
+}
+table
+{
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+td.header
+{
+    width: 1200px;
+    height: 190px;
+    border-radius: 50px 50px 0px 0px;
+    text-align: center;
+    vertical-align: top;
+    border-spacing: 0;
+    background-color: rgb(6, 243, 101);
+}
+td.footer
+{
+    width: 1200px;
+    height: 90px;
+    border-radius: 0px 0px 50px 50px;
+    text-align: center;
+    vertical-align: top;
+    border-spacing: 0;
+    background-color: rgb(15, 234, 55);
+}
+td.contenido
+{
+    width: 1200px;
+    text-align: justify;
+    vertical-align: top;
+    border-spacing: 0;
+    background-color: rgb(219, 98, 170);
+    border-style: solid 1px;
+    border-color: rgb(255, 255, 255);
+}
+h1,p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(rgb(204, 13, 140), rgb(89, 165, 89), blue);
+}
+.boton
+{
+    margin-top:9px;
+    display: inline-flex;
+    font-family:roboto;
+    font-size:15px;
+    background-color:#D5DA2E;
+    color: #111111;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content:center;
+    width:180px;
+    height:20px;
+    border-radius: 25px 0 25px 0;
+    padding: 5px;
+}
+.boton:hover
+{
+    border-radius: 0px 25px 0px 25px;
+    color: black;
+    box-shadow: rgba(0,0,0,0.5) 9px 8px 8px;
+    background-color: rgb(9, 221, 33);
+
+}
